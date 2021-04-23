@@ -1,0 +1,292 @@
+/*  Embed Fonts */
+
+@font-face {
+	font-family: 'PTMono';
+	src: url('../fonts/PTMono-Regular.ttf');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('../fonts/Nexa\ Slab\ Regular.otf');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'NexaBold';
+	src: url('../fonts/Nexa\ Slab\ Bold.otf');
+	font-style: normal;
+	font-weight: 900;
+}
+
+/*  Embed Fonts */
+
+*{
+	box-sizing: border-box;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #111111;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+
+/* Header */ 
+
+.nav{
+	float: right;
+	padding-top: 10px;
+}
+
+.menu li{
+	display: inline-block;
+	padding: 10px 0px 0px 25px ;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	font-family: 'PTMono';
+}
+
+.menu li a:hover{
+	color: #FF4F6D;
+}
+
+/* Header */ 
+
+/* Main */
+
+.logo{
+	padding-top: 100px;
+}
+
+.rosa{
+	color: #FF4F6D;
+	font-family: 'PTMono';
+	padding: 0;
+	margin: 0;
+}
+
+.rosa2{
+	padding-left: 50%;
+}
+
+.rosa4{
+	float: right;
+}
+
+.nome{
+	color: white;
+	font-family: 'Nexa';
+	font-size: 50px;
+	margin-bottom: -15px;
+	line-height: 60px;
+}
+
+.divNome{
+	padding-top: 150px;
+	margin-left: 0px;
+}
+
+.helloWorld{
+	color: white;
+	font-family: 'PTMono';
+	font-size: 40px;
+	position: absolute;
+	top: 160px;
+	left: 77%;
+}
+
+.aboutText{
+	color: white;
+	font-family: 'PTMono';
+	margin: 0;
+}
+
+.divAbout{
+	padding-top: 350px;
+	width: 100%;
+	margin: 0;
+	padding-left: 41px;
+}
+
+.contLanding{
+	padding-top: 90px;
+}
+
+.scroll{
+	width: 30px;
+	height: 60px;
+	background: none;
+	border: 3px solid white;
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50px;
+}
+
+.bolaScroll{
+	width: 7px;
+	height: 10px;
+	background-color: white;
+	border-radius: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 10px;
+}
+
+.landing{
+	height: 100vh;
+}
+
+.secSkills{
+	height: 50vh;
+	background: linear-gradient(
+		to right, 
+		#181818 0%, 
+		#181818 50%, 
+		#111111 50%, 
+		#111111 100%
+	  );
+}
+
+.skill{
+	width: 350px;
+	height: 260px;
+	background-color: #1E1E1E;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 115px;
+}
+
+.iconSkills{
+	padding: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+}
+
+.tituloSkills{
+	color: white;
+	font-family: 'PTMono';
+	padding-left: 25px;
+}
+
+.textoSkills{
+	color: #D1D1D1;
+	font-family: 'PTMono';
+	padding-left: 25px;
+	width: 100%;
+	font-size: 14px;
+}
+
+.knowMore a{
+	color: #FF4F6D;
+	font-family: 'PTMono';
+	padding-left: 30px;
+	text-decoration: none;
+}
+
+.tituloProjeto{
+	color: white;
+	font-family: 'PTMono';
+	font-size: 40px;
+	padding-top: 60px;
+	padding-top: 10px;
+	margin: 0;
+}
+
+.textoProjeto{
+	color: #D1D1D1;
+	font-family: 'PTMono';
+	font-size: 15px;
+	padding: 0px 0px 70px 5px;
+	margin: 0;
+}
+
+.projeto{
+	padding: 50px 0px 50px 0px;
+	background-color: #1E1E1E;
+}
+
+.nomeProjeto{
+	color: white;
+	font-family: 'PTMono';
+	font-size: 30px;
+	padding-top: 15px;
+	margin: 0;
+}
+
+.knowProjeto{
+	color: #FF4F6D;
+	font-family: 'PTMono';
+	font-size: 25px;
+	padding-bottom: 15px;
+	margin: 0;
+}
+
+.contacts{
+	padding-top: 180px;
+}
+
+.contata{
+	width: 100%;
+	height: 25vh;
+	background-color: #1E1E1E;
+	margin-bottom: 400px;
+}
+
+.tituloContactos{
+	color: white;
+	font-family: 'PTMono';
+	font-size: 40px;
+	width: 55%;
+	padding: 25px 0px 0px 130px;
+}
+
+.textoContactos{
+	color: #D1D1D1;
+	font-family: 'PTMono';
+	font-size: 15px;
+	width: 55%;
+	padding: 0px 0px 0px 130px;
+}
+
+.btnContacto{
+	background-color: #FF4F6D;
+	border: none;
+	color: white;
+	padding: 10px 40px 10px 40px;
+	position: absolute;
+	left: 70%;
+	top: 100px;
+}
+
+.footer{
+	width: 100%;
+	height: 10vh;
+	background-color: #1E1E1E;
+}
+
+.textoFooter{
+	color: white;
+	font-family: 'PTMono';
+	float: right;
+	padding-right: 40px;
+	padding-top: 40px;
+}
+
+/* Main */
+
+
+
